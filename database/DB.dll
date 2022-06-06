@@ -29,7 +29,6 @@ create table Croquettes
 create table Repas
 (
     idRepas  int auto_increment,
-    horaire  datetime not null,
     quantite float    not null,
     idAnimal int not null,
     idCroquette int not null,
