@@ -8,14 +8,14 @@ use datadistributeur;
 DROP TABLE IF EXISTS Statistique;
 DROP TABLE IF EXISTS Repas;
 DROP TABLE IF EXISTS Croquettes;
-DROP TABLE IF EXISTS Annimaux;
+DROP TABLE IF EXISTS Animaux;
 
-create table Annimaux
+create table Animaux
 (
     idAnimal  int auto_increment,
     nom VARCHAR(15) not null,
     tag VARCHAR(60) not null,
-    constraint Annimaux_pk
+    constraint Animaux_pk
         primary key (idAnimal)
 );
 
