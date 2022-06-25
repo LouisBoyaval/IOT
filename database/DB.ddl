@@ -37,7 +37,7 @@ create table Repas
 
     index(idAnimal),
     index(idCroquette),
-    FOREIGN KEY (idAnimal) REFERENCES Annimaux(idAnimal) ON UPDATE CASCADE ON DELETE RESTRICT,
+    FOREIGN KEY (idAnimal) REFERENCES Animaux(idAnimal) ON UPDATE CASCADE ON DELETE RESTRICT,
     FOREIGN KEY (idCroquette) REFERENCES Croquettes(idCroquette) ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
